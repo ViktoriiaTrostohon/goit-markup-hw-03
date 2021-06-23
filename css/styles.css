@@ -1,0 +1,191 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --main-background-color: #e5e5e5;
+}
+
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  font-family: Roboto, Open Sans, Cabin, sans-serif;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style-type: none;
+}
+
+/* Header: logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-name-one {
+  color: var(--accent-color);
+}
+.logo-name-two {
+  color: #000000;
+}
+
+/* Header: navigation */
+.nav-item {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--accent-color);
+}
+.nav-item.current {
+  color: var(--accent-color);
+}
+/* Header: contacts */
+.contacts-item {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--accent-color);
+}
+.contacts-item.current {
+  color: var(--accent-color);
+}
+
+/* Hero, bgc temporary */
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+
+/* Why us */
+.heading-studio,
+.heading-portfolio {
+  color: var(--title-text-color);
+}
+.heading-studio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.heading-studio-list-item-name {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.heading-studio-list-item-content {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* What we do */
+
+/* Our team */
+.heading-studio-employee {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.heading-studio-employee-job {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo-name-two {
+  color: var(--primary-white-color);
+}
+.google-maps-address:hover,
+.google-maps-address:focus,
+.virtual-address-link:hover,
+.virtual-address-link:focus {
+  color: var(--accent-color);
+}
+.google-maps-address {
+  color: var(--primary-white-color);
+}
+.virtual-address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.google-maps-address,
+.virtual-address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+/* Examples of our works:buttons */
+.portfolio-button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-button.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Examples of our works: content blocks */
+.heading-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.heading-portfolio-example {
+  font-size: 16px;
+  line-height: 1.87;
+}
