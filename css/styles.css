@@ -49,11 +49,7 @@ body {
 
 /* Header: logo */
 .logo {
-  background-color: lawngreen;
-  display: flex;
-  margin-left: auto;
-  margin: 24px 93px 25px auto;
-  padding-left: 15px;
+  margin: 24px 93px 25px 0;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -69,6 +65,26 @@ body {
 
 /* Header: navigation */
 
+.header {
+  display: flex;
+  width: 1170px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-point {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.nav-point:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-item {
   display: flex;
   color: var(--title-text-color);
@@ -78,9 +94,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.nav-item:not(:last-child) {
-  margin-right: 50px;
-}
+
 .nav-item:hover,
 .nav-item:focus {
   color: var(--accent-color);
@@ -89,8 +103,23 @@ body {
   color: var(--accent-color);
 }
 /* Header: contacts */
-.contacts-item {
+.contacts {
   display: flex;
+  margin-left: auto;
+}
+
+.contacts-point {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.contacts-point:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts-item {
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
