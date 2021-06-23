@@ -49,6 +49,11 @@ body {
 
 /* Header: logo */
 .logo {
+  background-color: lawngreen;
+  display: flex;
+  margin-left: auto;
+  margin: 24px 93px 25px auto;
+  padding-left: 15px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -63,13 +68,18 @@ body {
 }
 
 /* Header: navigation */
+
 .nav-item {
+  display: flex;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 .nav-item:hover,
 .nav-item:focus {
@@ -80,6 +90,7 @@ body {
 }
 /* Header: contacts */
 .contacts-item {
+  display: flex;
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
