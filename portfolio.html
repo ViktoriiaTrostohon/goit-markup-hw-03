@@ -5,45 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
-      <a href="index.html" lang="en" class="logo"
-        ><span class="logo-name-one">Web</span
-        ><span class="logo-name-two">Studio</span></a
-      >
-      <nav class="nav">
-        <ul class="list">
-          <li><a href="./index.html" class="nav-item">Студия</a></li>
+      <div class="container">
+        <a href="index.html" lang="en" class="logo"
+          ><span class="logo-name-one">Web</span
+          ><span class="logo-name-two">Studio</span></a
+        >
+        <nav class="nav">
+          <ul class="list">
+            <li><a href="./index.html" class="nav-item">Студия</a></li>
+            <li>
+              <a href="./portfolio.html" class="nav-item current">Портфолио</a>
+            </li>
+            <li><a href="" class="nav-item">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
           <li>
-            <a href="./portfolio.html" class="nav-item current">Портфолио</a>
+            <a href="mailto:info@devstudio.com" class="contacts-item"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="" class="nav-item">Контакты</a></li>
+          <li>
+            <a href="tel:+380961111111" class="contacts-item"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="contacts list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contacts-item"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contacts-item"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Main -->
     <main>
@@ -51,7 +53,7 @@
       <section>
         <!-- Hide this heading when you learn how to -->
         <h1>Примеры наших работ, услуги</h1>
-        <ul class="list">
+        <ul class="list container">
           <li>
             <button type="button" class="portfolio-button current">Все</button>
           </li>
@@ -68,7 +70,7 @@
             <button type="button" class="portfolio-button">Маркетинг</button>
           </li>
         </ul>
-        <ul class="list">
+        <ul class="list container">
           <li>
             <img
               src="./images/portfolio-examples/technokriak.jpg"
@@ -175,7 +177,7 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer container">
       <a href="index.html" lang="en" class="logo"
         ><span class="logo-name-one">Web</span
         ><span class="logo-name-two">Studio</span></a
