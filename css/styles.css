@@ -122,6 +122,9 @@ body {
   color: var(--accent-color);
   background-color: var(--primary-white-color);
 }
+.portfolio-hero-heading {
+  display: none;
+}
 
 /* Why us */
 .heading-studio,
