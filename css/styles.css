@@ -49,6 +49,7 @@ body {
 
 /* Header: logo */
 .logo {
+  outline: 1px solid lawngreen;
   margin: 24px 93px 25px 0;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -67,14 +68,16 @@ body {
 
 .header {
   display: flex;
-  width: 1170px;
+  width: 1200px;
 }
 
 .nav-list {
+  outline: 1px solid lawngreen;
   display: flex;
 }
 
 .nav-point {
+  outline: 1px solid lawngreen;
   display: flex;
   align-items: center;
   margin-top: 32px;
@@ -86,6 +89,7 @@ body {
 }
 
 .nav-item {
+  outline: 1px solid lawngreen;
   display: flex;
   color: var(--title-text-color);
   font-weight: 500;
@@ -104,11 +108,13 @@ body {
 }
 /* Header: contacts */
 .contacts {
+  outline: 1px solid lawngreen;
   display: flex;
   margin-left: auto;
 }
 
 .contacts-point {
+  outline: 1px solid lawngreen;
   display: flex;
   align-items: center;
   margin-top: 32px;
@@ -120,6 +126,7 @@ body {
 }
 
 .contacts-item {
+  outline: 1px solid lawngreen;
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
