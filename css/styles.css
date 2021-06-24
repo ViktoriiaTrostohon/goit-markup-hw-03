@@ -6,7 +6,7 @@
   --main-background-color: #e5e5e5;
 }
 
-/* Global resets */
+/* Global resets and classes */
 h1,
 h2,
 h3,
@@ -47,6 +47,11 @@ body {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Header: logo */
 .logo {
   outline: 1px solid lawngreen;
@@ -69,6 +74,7 @@ body {
 .header {
   display: flex;
   width: 1200px;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-list {
@@ -148,6 +154,7 @@ body {
   text-align: center;
 }
 .hero-title {
+  margin-bottom: 30px;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -156,6 +163,10 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
+  min-width: 200px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+  border-radius: 4px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -174,17 +185,24 @@ body {
 }
 
 /* Why us */
+
+div.advantages {
+  display: flex;
+}
 .heading-studio,
 .heading-portfolio {
   color: var(--title-text-color);
 }
 .heading-studio {
+  display: none;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
+
 .heading-studio-list-item-name {
+  padding-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -194,6 +212,22 @@ body {
 .heading-studio-list-item-content {
   font-size: 14px;
   line-height: 1.71;
+}
+
+.list.advantages {
+  display: flex;
+  justify-content: space-between;
+}
+.list.advantages:not(:last-child) {
+  margin-right: 30px;
+}
+.advantages .advantages-item {
+  display: flex;
+  flex-basis: 270px;
+}
+
+.advantages. advantages-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* What we do */
