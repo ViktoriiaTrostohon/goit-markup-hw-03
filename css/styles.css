@@ -194,11 +194,14 @@ div.advantages {
   color: var(--title-text-color);
 }
 .heading-studio {
-  display: none;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+
+.heading-studio-hide {
+  display: none;
 }
 
 .heading-studio-list-item-name {
