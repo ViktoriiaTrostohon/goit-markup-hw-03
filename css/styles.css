@@ -12,11 +12,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
+h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -41,8 +37,7 @@ body {
 .container {
   outline: 1px solid lawngreen;
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -55,7 +50,10 @@ body {
 /* Header: logo */
 .logo {
   outline: 1px solid lawngreen;
-  margin: 24px 93px 25px 0;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 0;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -71,7 +69,7 @@ body {
 
 /* Header: navigation */
 
-.header {
+.container.header {
   display: flex;
   width: 1200px;
   border-bottom: 1px solid #ececec;
@@ -86,17 +84,18 @@ body {
   outline: 1px solid lawngreen;
   display: flex;
   align-items: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
-
+.nav-point,
+.contacts-point {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .nav-point:not(:last-child) {
   margin-right: 50px;
 }
 
 .nav-item {
   outline: 1px solid lawngreen;
-  display: flex;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -123,8 +122,6 @@ body {
   outline: 1px solid lawngreen;
   display: flex;
   align-items: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .contacts-point:not(:last-child) {
