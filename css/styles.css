@@ -160,7 +160,6 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
-  min-width: 200px;
   padding: 10px 32px;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -177,7 +176,8 @@ body {
   color: var(--accent-color);
   background-color: var(--primary-white-color);
 }
-.portfolio-hero-heading {
+.portfolio-hero-heading,
+.heading-studio-hide {
   display: none;
 }
 
@@ -191,14 +191,11 @@ div.advantages {
   color: var(--title-text-color);
 }
 .heading-studio {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-}
-
-.heading-studio-hide {
-  display: none;
 }
 
 .heading-studio-list-item-name {
@@ -217,6 +214,8 @@ div.advantages {
 .list.advantages {
   display: flex;
   justify-content: space-between;
+  margin-left: ;
+  margin-top: ;
 }
 .list.advantages:not(:last-child) {
   margin-right: 30px;
@@ -231,8 +230,21 @@ div.advantages {
 }
 
 /* What we do */
+.services {
+  display: flex;
+  margin-right: -30px;
+  flex-wrap: wrap;
+}
+
+.studio-image-1,
+.studio-image-2,
+.studio-image-3 {
+  display: block;
+  margin-right: 30px;
+}
 
 /* Our team */
+
 .heading-studio-employee {
   color: var(--title-text-color);
   font-weight: 500;
