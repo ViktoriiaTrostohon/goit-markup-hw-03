@@ -232,20 +232,38 @@ div.advantages {
 /* What we do */
 .services {
   display: flex;
-  margin-right: -30px;
   flex-wrap: wrap;
+  margin-right: -30px;
 }
 
-.studio-image-1,
-.studio-image-2,
-.studio-image-3 {
+.studio-image {
   display: block;
+}
+
+.studio-image:not(:last-child) {
   margin-right: 30px;
 }
 
 /* Our team */
 
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
+.employee-card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.employee-image {
+  display: block;
+  margin-bottom: 30px;
+}
+
 .heading-studio-employee {
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -253,6 +271,7 @@ div.advantages {
   text-align: center;
 }
 .heading-studio-employee-job {
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
