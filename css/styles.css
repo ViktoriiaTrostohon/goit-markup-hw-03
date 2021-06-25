@@ -183,9 +183,19 @@ body {
 
 /* Why us */
 
-div.advantages {
+.advantages {
   display: flex;
+  margin-right: -30px;
 }
+
+.heading-studio-list-item {
+  width: 270px;
+}
+
+.heading-studio-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .heading-studio,
 .heading-portfolio {
   color: var(--title-text-color);
@@ -211,7 +221,7 @@ div.advantages {
   line-height: 1.71;
 }
 
-.list.advantages {
+/* .list.advantages {
   display: flex;
   justify-content: space-between;
   margin-left: ;
@@ -227,7 +237,7 @@ div.advantages {
 
 .advantages. advantages-item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 /* What we do */
 .services {
