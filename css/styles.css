@@ -221,24 +221,6 @@ body {
   line-height: 1.71;
 }
 
-/* .list.advantages {
-  display: flex;
-  justify-content: space-between;
-  margin-left: ;
-  margin-top: ;
-}
-.list.advantages:not(:last-child) {
-  margin-right: 30px;
-}
-.advantages .advantages-item {
-  display: flex;
-  flex-basis: 270px;
-}
-
-.advantages. advantages-item:not(:last-child) {
-  margin-right: 30px;
-} */
-
 /* What we do */
 .services {
   display: flex;
@@ -288,12 +270,26 @@ body {
 }
 
 /* Footer */
+
 .footer {
   background-color: #2f303a;
 }
+
 .footer .logo-name-two {
   color: var(--primary-white-color);
 }
+.container.bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo.page-bottom {
+  padding-top: 60px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
 .google-maps-address:hover,
 .google-maps-address:focus,
 .virtual-address-link:hover,
@@ -306,6 +302,19 @@ body {
 .virtual-address-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.address.map {
+  margin-bottom: 9px;
+}
+
+.address.email {
+  margin-bottom: 9px;
+}
+
+.address.phone {
+  padding-bottom: 60px;
+}
+
 .google-maps-address,
 .virtual-address-link {
   font-style: normal;
