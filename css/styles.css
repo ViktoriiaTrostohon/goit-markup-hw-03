@@ -378,10 +378,13 @@ body {
   margin-bottom: -30px;
 }
 
+.product-item {
+  border-bottom: 1px solid #eeeeee;
+  background-color: var(--primary-white-color);
+}
+
 .product-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
-  background: var(--primary-white-color);
 }
 
 .product-item:not(:nth-child(3n + 3)) {
