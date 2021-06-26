@@ -42,7 +42,7 @@ body {
 }
 
 .section {
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 94px;
 }
 
@@ -71,6 +71,7 @@ body {
   display: flex;
   width: 1200px;
   border-bottom: 1px solid #ececec;
+  padding-bottom: 94px;
 }
 
 .nav-list {
@@ -370,7 +371,7 @@ body {
   line-height: 1.87;
 }
 
-/* Container with pics */
+/* part with pics */
 .list.images {
   display: flex;
   flex-wrap: wrap;
