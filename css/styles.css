@@ -389,6 +389,8 @@ body {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-bottom: -30px;
+  padding: 0;
+  margin: 0;
 }
 
 .product-item {
@@ -405,6 +407,5 @@ body {
 }
 
 .product-image {
-  display: block;
   margin-bottom: 20px;
 }
