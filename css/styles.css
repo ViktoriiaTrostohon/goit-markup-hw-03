@@ -152,7 +152,6 @@ body {
 
 .hero-title {
   margin-bottom: 30px;
-  padding-top: 200px;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -161,18 +160,8 @@ body {
   text-transform: uppercase;
 }
 
-/* 
-  
-  
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--main-title-color);
-   */
-
 .hero-button {
   padding: 10px 32px;
-  margin-bottom: 200px;
   border: 1px solid transparent;
   border-radius: 4px;
   color: var(--primary-white-color);
@@ -194,6 +183,10 @@ body {
 }
 
 /* Why us */
+
+.pros.section {
+  padding-bottom: 0;
+}
 
 .advantages {
   display: flex;
@@ -234,6 +227,10 @@ body {
 }
 
 /* What we do */
+.works.section {
+  padding-bottom: 0;
+}
+
 .services {
   display: flex;
   flex-wrap: wrap;
