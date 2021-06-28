@@ -52,8 +52,6 @@ body {
 /* Header: logo */
 .logo {
   margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
   padding-left: 0;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -73,22 +71,22 @@ body {
 .container.header {
   display: flex;
   width: 1200px;
+}
+
+.header-section {
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 
-.nav-list {
+.nav {
   display: flex;
 }
-
-.nav-point {
+.nav-list {
   display: flex;
   align-items: center;
 }
-.nav-point,
-.contacts-point {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 .nav-point:not(:last-child) {
   margin-right: 50px;
 }
