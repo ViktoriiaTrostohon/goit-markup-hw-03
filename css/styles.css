@@ -255,8 +255,9 @@ body {
   margin-right: 30px;
 }
 
-.employee-image {
-  margin-bottom: 30px;
+div.employee-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .heading-studio-employee {
@@ -268,7 +269,7 @@ body {
   text-align: center;
 }
 .heading-studio-employee-job {
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
