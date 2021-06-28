@@ -269,7 +269,6 @@ div.employee-info {
   text-align: center;
 }
 .heading-studio-employee-job {
-  /* padding-bottom: 30px; */
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -336,7 +335,6 @@ div.employee-info {
 .portfolio-button {
   border-radius: 4px;
   border: 1px solid transparent;
-  /* padding: 6px 22px; */
   color: var(--title-text-color);
   background-color: #f5f4fa;
   font-weight: 500;
@@ -346,9 +344,6 @@ div.employee-info {
   cursor: pointer;
 }
 
-.button-content {
-  /* margin-bottom: 50px; */
-}
 .button-content:not(:last-child):not(:last-child) {
   padding-right: 8px;
 }
