@@ -3,7 +3,6 @@
   --title-text-color: #212121;
   --primary-white-color: #ffffff;
   --accent-color: #2196f3;
-  --main-background-color: #e5e5e5;
 }
 
 /* Global resets and classes */
@@ -31,7 +30,6 @@ img {
 
 body {
   color: var(--main-text-color);
-  background-color: var(--main-background-color);
   font-family: Roboto, Open Sans, Cabin, sans-serif;
   letter-spacing: 0.03em;
 }
