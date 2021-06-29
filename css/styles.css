@@ -328,11 +328,12 @@ div.employee-info {
 .list.buttons {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
   padding-right: -8px;
-  padding-bottom: 34px;
 }
 
 .portfolio-button {
+  padding: 6px 22px;
   border-radius: 4px;
   border: 1px solid transparent;
   color: var(--title-text-color);
@@ -361,8 +362,7 @@ div.employee-info {
 /* Examples of our works: content blocks */
 
 div.product-description {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -370,16 +370,12 @@ div.product-description {
 
 .heading-portfolio {
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .heading-portfolio-example {
-  padding-left: 24px;
-  padding-right: 24px;
   font-size: 16px;
   line-height: 1.87;
 }
