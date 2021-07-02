@@ -181,7 +181,7 @@ body {
 /* Why us */
 
 .pros.section {
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 
 .advantages {
@@ -224,8 +224,7 @@ body {
 
 /* What we do */
 .works.section {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 0px;
 }
 
 .services {
@@ -240,9 +239,9 @@ body {
 
 /* Our team */
 
-.employees.section {
+/* .employees.section {
   padding-top: 47px;
-}
+} */
 
 .team {
   display: flex;
